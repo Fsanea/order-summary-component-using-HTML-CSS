@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale-1,0">
+    <title>Order Summary</title>
+    <style>
+        body{
+        background-color: hsl(225, 100%, 94%);
+        background-image: url(images/pattern-background-desktop.svg);
+        background-repeat:no-repeat;
+        background-position: top;
+        background-size: cover;
+    }
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    position: absolute;
+    top:50%;
+    left:50%;
+    width:453px;
+    margin-left:-226.5px;
+    height: 696px;
+    margin-top:-348px;
+    background-color: white;
+    text-align: center;
+    border-radius: 25px;
+
+}
+.childe {
+   position:relative;
+   top:50%;
+   left:50%;
+   width: 354px;
+   margin-left:-177px;
+   height: 97px; 
+   margin-top:-348px;
+   background-color: hsl(225, 100%, 98%);
+   border-radius: 25px;
+  
+} 
+
+img {
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    width:453px;
+}
+.button {
+    border:none;
+    position:relative; 
+    text-align: center;
+    display: text;
+    font-family:Red Hat Display; 
+    margin: 4px 2px;
+    cursor: pointer;
+    font-weight: bold;
+}
+.button1 {background-color: transparent;  font-size: 16px; color:hsl(245, 75%, 52%);}
+.button2 {background-color: hsl(245, 75%, 52%); width: 354px; height: 45px; font-size: 16px; color: white; border-radius: 10px;
+    margin-left:0px;margin-top:380px;}
+.button3 {background-color: transparent; font-size: 16px; color:gray; margin-top:30px;}
+
+.attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+    </style>
+</head>
+<body>
+
+
+<div class="container">
+<div>
+    <img src="images/illustration-hero.svg">
+</div>
+<div>
+    <h1 style="font-family:Red Hat Display;">Order Summary</h1>
+    <p style="color: gray; font-size: 16px; font-family:Red Hat Display;">You can listen to millions of songs,<br>audiobooks, and podcasts
+    on any device<br>anywhere you like! </p>
+</div>
+
+<div class="childe">
+<img src="images/icon-music.svg" 
+style="width: auto; height: auto; padding:23px; float:left; " >
+<h3 style="float:left; font-family:Red Hat Display;">Annual Plan</h3>
+<p style=" position:relative; top:50%; left:-40%;
+color:gray; font-size: 16px; font-family:Red Hat Display; ">$59.99/year</p>
+<button class="button button1">Change</button>
+
+</div>
+
+<div>
+    <button class="button button2">Proceed to Payment</button>
+</div>
+<div>
+    <button class="button button3">Cancel Order</button>  
+</div>
+
+</div>
+
+
+<div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Fai</a>.
+  </div>
+</body>
+</html>
